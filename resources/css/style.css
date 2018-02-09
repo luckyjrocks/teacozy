@@ -1,0 +1,207 @@
+html {
+  display: flex;
+  flex-direction: column;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+  background-color: black;
+}
+
+body {
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  justify-content: space-between;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  margin: 0;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+  background-color: black;
+}
+
+.header .nav {
+  display: flex;
+  flex-direction: row;
+}
+
+.header .nav p {
+  margin: 0 8px;
+  text-decoration: underline;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  margin-top: 70px;
+
+}
+
+.mission {
+  display: flex;
+  align-items: center;
+  height: 700px;
+  width: 1200px;
+  background-image: url('../attachments/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.mission .text-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
+  background-color: black;
+}
+
+.tea {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 1000px;
+}
+
+.tea .text-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+}
+
+.tea .images {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.img {
+  margin: 10px;
+  height: 200px;
+  width: 300px;
+}
+
+.berry, .rum, .donut, .myrtle, .bedford {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.berry .img {
+  background-image: url('../attachments/berry.jpg');
+  background-size: contain;
+}
+
+.rum .img {
+  background-image: url('../attachments/rum.jpg');
+  background-size: contain;
+}
+
+.donut .img {
+  background-image: url('../attachments/donut.jpg');
+  background-size: contain;
+}
+
+.myrtle .img {
+  background-image: url('../attachments/myrtle.jpg');
+  background-size: contain;
+}
+
+.bedford .img {
+  background-image: url('../attachments/bedford.jpg');
+  background-size: contain;
+}
+
+.locations {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../attachments/locations.jpg');
+  background-size: cover;
+  background-origin: content-box;
+  background-position: center;
+  margin: 50px 0 0;
+  height: 500px;
+  width: 1200px;
+  padding-bottom: 20px;
+}
+
+.locations .text-content {
+  display: flex;
+}
+
+.locations .squares {
+  display: flex;
+  margin: 15px 0 0;
+}
+
+.location {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  height: 250px;
+  width: 300px;
+  margin: 0 20px;
+  opacity: 1;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+  width: 1200px;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: auto;
+  margin: 10px;
+  padding-top: 10px;
+}
+
+.copyright {
+  text-align: left;
+  width: auto;
+  margin: 20px;
+}
+
+h2, h3, h4 {
+  margin: auto;
+}
+
+h2, h3, h4, h5, span, p {
+  color: seashell;
+}
